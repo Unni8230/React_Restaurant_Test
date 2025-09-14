@@ -1,0 +1,22 @@
+.header-main-container {
+  height: 15vh;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+}
+.header-cart-logo-section {
+  display: flex;
+  width: 10%;
+  align-items: center;
+}
+.cart-logo{
+  height: 35%;
+  width: 35%;
+}
+@media (max-width: 765px){
+  .header-main-container{
+    height: 10vh;
+  }
+}

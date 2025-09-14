@@ -1,0 +1,113 @@
+.restaurant-menu-bg-container {
+  height: 100vh;
+}
+.categories-ul-list-container {
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 10px;
+}
+.each-category-list-item {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+}
+.active {
+  border-bottom: 2px solid red;
+}
+@media (max-width: 765px) {
+  .categories-ul-list-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+    scrollbar-width: none; /* Firefox */
+  }
+  .each-category-list-item {
+    margin-right: 12px;
+  }
+}
+.current-products-display-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.each-product-list-item {
+  display: flex;
+  border: 2px solid #cfcfcf;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.each-product-title-description-section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.each-product-title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  margin: 0px;
+}
+.each-product-currency-section {
+  display: flex;
+  width: 58px;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.each-product-description {
+  font-size: 14px;
+  color: grey;
+  margin: 0px;
+}
+.each-product-customization-text {
+  color: #8768f6;
+  font-size: 16px;
+  margin: 0px;
+}
+.each-product-calories-text {
+  width: 20%;
+  color: #ffac13;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+}
+.each-product-image {
+  width: 120px;
+  height: 120px;
+  align-self: flex-start;
+}
+.quantity-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: chartreuse;
+  color: #ffffff;
+}
+.quantity-selector-btn {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+}
+.add-to-cart-btn {
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #ffffff;
+  width: 110px;
+  padding: 8px;
+  margin: 10px 0px 10px 0px;
+  transition: transform 0.2s ease;
+}
+.add-to-cart-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
