@@ -29,7 +29,7 @@
     "prettier": "2.2.1",
     "react-scripts": "4.0.3"
   },
-  "homepage": "https://Unni8230.github.io/React_Restaurant_Demo",
+  "homepage": "https://Unni8230.github.io/React_Restaurant_Test",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
